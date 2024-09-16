@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+@media (max-width: 768px) {
+  .smallroute {
+      width: 50px;
+      height: 50px;
+  }
+  
+  .smallRouteCard {
+      width: 100%;
+      max-width: 100%; /* Asegura que las tarjetas de rutas se adapten al ancho disponible */
+  }
+  
+  .userRoutes {
+      width: 100%;
+      max-width: 100%; /* Asegura que las rutas de usuario se adapten al ancho disponible */
+      min-height: auto; /* Ajusta la altura mínima para pantallas más pequeñas */
+  }
+}
+
+
+  
+
+
+
+
+
+
+
+
