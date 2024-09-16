@@ -1,13 +1,23 @@
-# WebApp boilerplate with React JS and Flask API
+# ShareTrips
 
-Build web applications using React.js for the front end and python/flask for your backend API.
+**ShareTrips** is a web application designed for travelers who want to share their routes and tourist experiences in Spain. With **ShareTrips**, users can comment on shared routes, follow other travelers, and discover new exciting destinations.
 
-- Documentation can be found here: https://start.4geeksacademy.com/starters/react-flask
-- Here is a video on [how to use this template](https://www.loom.com/share/f37c6838b3f1496c95111e515e83dd9b)
-- Integrated with Pipenv for package managing.
-- Fast deployment to heroku [in just a few steps here](https://start.4geeksacademy.com/backend/deploy-heroku-posgres).
-- Use of .env file.
-- SQLAlchemy integration for database abstraction.
+## Project Overview
+
+**ShareTrips** helps users to:
+
+- Share and publish tourist routes in Spain.
+- Comment and give feedback on other travelers' routes.
+- Follow profiles to stay up-to-date with their travel recommendations.
+
+## Technologies Used
+
+- **Frontend:** React.js, CSS, Bootstrap for an engaging and responsive user experience.
+- **Backend:** Python Flask for the API, JWT for secure authentication, and MySQL for storing user, route, and comment data.
+
+## Installation and Setup
+
+This project can be run both locally and in a cloud environment like Github Codespaces or Gitpod.
 
 ### 1) Installation:
 
@@ -72,12 +82,7 @@ Every Github codespace environment will have **its own database**, so if you're 
 1. Install the packages: `$ npm install`
 2. Start coding! start the webpack dev server `$ npm run start`
 
-## Publish your website!
-
-This boilerplate it's 100% read to deploy with Render.com and Heroku in a matter of minutes. Please read the [official documentation about it](https://start.4geeksacademy.com/deploy).
 
 ### Contributors
 
-This template was built as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
-
-You can find other templates and resources like this at the [school github page](https://github.com/4geeksacademy/).
+@JaviJota, @ivanzr17
